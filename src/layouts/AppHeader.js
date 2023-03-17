@@ -22,6 +22,11 @@ const navItems = [
     key: 'home',
     path: '/',
   },
+  {
+    name: 'Projects',
+    key: 'projects',
+    path: '/projects',
+  },
 ];
 
 function AppHeader(props) {
