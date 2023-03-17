@@ -1,9 +1,5 @@
 const AppFooter = () => {
-  return (
-    <div>
-      <h1>App Footer</h1>
-    </div>
-  );
+  return <div></div>;
 };
 
 export default AppFooter;
