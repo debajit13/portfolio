@@ -14,6 +14,8 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
+import styled from 'styled-components';
+import logo from '../assets/images/logo.png';
 
 const drawerWidth = 240;
 const navItems = [
@@ -29,6 +31,12 @@ const navItems = [
   },
 ];
 
+const Image = styled.img`
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
+`;
+
 function AppHeader(props) {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
@@ -38,10 +46,16 @@ function AppHeader(props) {
   };
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <Typography variant='h6' sx={{ my: 2 }}>
-        DM
-      </Typography>
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'left' }}>
+      <img
+        src={logo}
+        height='45px'
+        className='m-2'
+        style={{
+          borderRadius: '50%',
+        }}
+        alt='Debajit Mallick'
+      />
       <Divider />
       <List>
         {navItems.map((navItem) => (
@@ -74,21 +88,31 @@ function AppHeader(props) {
           >
             <MenuIcon />
           </IconButton>
-          <Typography
-            variant='h6'
-            component='div'
-            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
+          <Box
+            sx={{
+              width: '100%',
+              display: 'flex',
+              justifyContent: 'space-between',
+            }}
           >
-            DM
-          </Typography>
-          <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-            {navItems.map((item) => (
-              <Link to={item.path}>
-                <Button key={item.key} sx={{ color: '#fff' }}>
-                  {item.name}
-                </Button>
-              </Link>
-            ))}
+            <Image
+              src={logo}
+              alt='Debajit Mallick'
+              height='45px'
+              className='d-xs-none'
+              style={{
+                borderRadius: '50%',
+              }}
+            />
+            <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+              {navItems.map((item) => (
+                <Link to={item.path}>
+                  <Button key={item.key} sx={{ color: '#fff' }}>
+                    {item.name}
+                  </Button>
+                </Link>
+              ))}
+            </Box>
           </Box>
         </Toolbar>
       </AppBar>
