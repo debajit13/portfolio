@@ -11,7 +11,6 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
@@ -28,6 +27,11 @@ const navItems = [
     name: 'Projects',
     key: 'projects',
     path: '/projects',
+  },
+  {
+    name: 'Experiences',
+    key: 'experiences',
+    path: '/experiences',
   },
 ];
 

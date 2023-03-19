@@ -35,20 +35,6 @@ const Projects = () => {
       webURL: 'https://jseekr.netlify.app/',
       githubURL: 'https://github.com/debajit13/JSeeker',
     },
-    // {
-    //   title: '',
-    //   description: '',
-    //   image: '',
-    //   webURL: '',
-    //   githubURL: '',
-    // },
-    // {
-    //   title: '',
-    //   description: '',
-    //   image: '',
-    //   webURL: '',
-    //   githubURL: '',
-    // },
   ];
 
   return (
