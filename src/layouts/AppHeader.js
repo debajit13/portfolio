@@ -33,6 +33,11 @@ const navItems = [
     key: 'experiences',
     path: '/experiences',
   },
+  {
+    name: 'Blogs',
+    key: 'blogs',
+    path: '/blogs',
+  },
 ];
 
 const Image = styled.img`
@@ -97,6 +102,7 @@ function AppHeader(props) {
               width: '100%',
               display: 'flex',
               justifyContent: 'space-between',
+              alignItems: 'center',
             }}
           >
             <Image
