@@ -9,7 +9,7 @@ const Root = () => {
     <div className='h-100'>
       <AppHeader />
       <Toolbar />
-      <Container>
+      <Container className='pb-3'>
         <Outlet />
       </Container>
       <AppFooter />
