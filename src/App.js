@@ -1,8 +1,20 @@
+import { RouterProvider } from 'react-router-dom';
+import { ThemeProvider, CssBaseline, createTheme } from '@mui/material';
+import router from './router';
+const darkTheme = createTheme({
+  palette: {
+    mode: 'dark',
+  },
+});
+
 const App = () => {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <>
+      <ThemeProvider theme={darkTheme}>
+        <CssBaseline />
+        <RouterProvider router={router} />
+      </ThemeProvider>
+    </>
   );
 };
 
