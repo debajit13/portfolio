@@ -31,7 +31,7 @@ const Skills = () => {
     <section className='mt-5'>
       <Typography variant='h3'>Skills</Typography>
       <Grid container>
-        <Grid md={4} container>
+        <Grid md={4} sm={12} xs={12}>
           <img
             src={skillsImage}
             alt='Skills logo'
@@ -51,6 +51,7 @@ const Skills = () => {
         >
           {skills.map((skills) => (
             <Box
+              key={skills.name}
               sx={{
                 margin: {
                   xs: '12px',

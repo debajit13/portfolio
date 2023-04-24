@@ -116,10 +116,8 @@ function AppHeader(props) {
             />
             <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
               {navItems.map((item) => (
-                <Link to={item.path}>
-                  <Button key={item.key} sx={{ color: '#fff' }}>
-                    {item.name}
-                  </Button>
+                <Link to={item.path} key={item.key}>
+                  <Button sx={{ color: '#fff' }}>{item.name}</Button>
                 </Link>
               ))}
             </Box>

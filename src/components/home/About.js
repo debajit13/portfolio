@@ -30,6 +30,7 @@ const About = () => {
       <Typography padding={1} variant='body1'>
         Also, I am a <span className='fw-bold'>Tech Speaker</span> too. I have
         given technical talks at many events like{' '}
+        <span className='fw-bold'>GDSC WOW KOLKATA</span>,{' '}
         <span className='fw-bold'>FrontendDays Siliguri</span>,{' '}
         <span className='fw-bold'>GDG Bhopal</span>,{' '}
         <span className='fw-bold'>JWOC</span>,{' '}

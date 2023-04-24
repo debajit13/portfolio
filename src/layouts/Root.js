@@ -1,10 +1,15 @@
+import { useEffect } from 'react';
 import { Toolbar } from '@mui/material';
 import { Container } from '@mui/system';
-import { Outlet } from 'react-router-dom';
-import AppFooter from './AppFooter';
+import { Outlet, useLocation } from 'react-router-dom';
 import AppHeader from './AppHeader';
+import AppFooter from './AppFooter';
 
 const Root = () => {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return (
     <div className='h-100'>
       <AppHeader />
