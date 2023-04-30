@@ -2,6 +2,7 @@ import { Grid } from '@mui/material';
 import About from '../components/home/About';
 import profileImage from '../assets/images/profile_pic.jpeg';
 import Skills from '../components/home/Skills';
+import Contact from '../components/home/Contact';
 
 const Home = () => {
   return (
@@ -36,6 +37,7 @@ const Home = () => {
       </Grid>
 
       <Skills />
+      <Contact />
     </>
   );
 };
