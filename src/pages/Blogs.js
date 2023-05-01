@@ -5,9 +5,18 @@ import javaScriptVariablesImage from '../assets/images/blogs/javascriptVariables
 import getStartedWithTypeScriptImage from '../assets/images/blogs/getStartedWithTypeScript.png';
 import deepDiveIntoGit1 from '../assets/images/blogs/deepDiveIntoGit1.png';
 import deepDiveIntoGit2 from '../assets/images/blogs/deepDiveIntoGit2.png';
+import indepthStateImage from '../assets/images/blogs/InDepthState.png';
 
 const Blogs = () => {
   const blogsData = [
+    {
+      blogTitle: 'An in-depth guide on State in React',
+      blogDescription:
+        'In React, State is one of the essential concepts to learn. If you are new to React or an intermediate-level developer, this article will help you to dive deep into State and help you to write better code.',
+      blogImage: indepthStateImage,
+      blogLink:
+        'https://dev.to/debajit13/an-in-depth-guide-on-state-in-react-34m7',
+    },
     {
       blogTitle: "'this' keyword in JavaScript",
       blogDescription:

@@ -73,7 +73,7 @@ const ExperienceTimeline = () => (
       className='vertical-timeline-element--work'
       contentStyle={{ background: '#272727', color: '#fff' }}
       contentArrowStyle={{ borderRight: '7px solid  #272727' }}
-      date='Oct 2021 - Apr 2022'
+      date='Apr 2021 - Sep 2021'
       iconStyle={{ background: '#272727', color: '#fff' }}
       icon={<Work />}
     >
@@ -100,7 +100,7 @@ const ExperienceTimeline = () => (
       className='vertical-timeline-element--work'
       contentStyle={{ background: '#272727', color: '#fff' }}
       contentArrowStyle={{ borderRight: '7px solid  #272727' }}
-      date='May 2022 - Present'
+      date='Feb 2021 - Apr 2021'
       iconStyle={{ background: '#272727', color: '#fff' }}
       icon={<Work />}
     >
