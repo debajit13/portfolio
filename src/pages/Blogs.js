@@ -6,9 +6,18 @@ import getStartedWithTypeScriptImage from '../assets/images/blogs/getStartedWith
 import deepDiveIntoGit1 from '../assets/images/blogs/deepDiveIntoGit1.png';
 import deepDiveIntoGit2 from '../assets/images/blogs/deepDiveIntoGit2.png';
 import indepthStateImage from '../assets/images/blogs/InDepthState.png';
+import allAboutPropsImage from '../assets/images/blogs/AllAboutProps.png';
 
 const Blogs = () => {
   const blogsData = [
+    {
+      blogTitle: 'All You Need to Know About Props in React',
+      blogDescription:
+        'In React, we always think about Components. These components need a way to communicate with each other. Props are a great way to communicate between components by sharing data between them.',
+      blogImage: allAboutPropsImage,
+      blogLink:
+        'https://dev.to/debajit13/all-you-need-to-know-about-props-in-react-1l40',
+    },
     {
       blogTitle: 'An in-depth guide on State in React',
       blogDescription:
