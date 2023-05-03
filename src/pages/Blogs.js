@@ -7,9 +7,18 @@ import deepDiveIntoGit1 from '../assets/images/blogs/deepDiveIntoGit1.png';
 import deepDiveIntoGit2 from '../assets/images/blogs/deepDiveIntoGit2.png';
 import indepthStateImage from '../assets/images/blogs/InDepthState.png';
 import allAboutPropsImage from '../assets/images/blogs/AllAboutProps.png';
+import propTypesAndDefaultPropsImage from '../assets/images/blogs/prop-types-default-props.png';
 
 const Blogs = () => {
   const blogsData = [
+    {
+      blogTitle: 'Prop Types and Default Props in React',
+      blogDescription:
+        'prop-types is a library with which you can check the type of props in React. With defaultProps, we can pass default values to props.',
+      blogImage: propTypesAndDefaultPropsImage,
+      blogLink:
+        'https://dev.to/debajit13/prop-types-and-default-props-in-react-55jh',
+    },
     {
       blogTitle: 'All You Need to Know About Props in React',
       blogDescription:
