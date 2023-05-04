@@ -8,9 +8,18 @@ import deepDiveIntoGit2 from '../assets/images/blogs/deepDiveIntoGit2.png';
 import indepthStateImage from '../assets/images/blogs/InDepthState.png';
 import allAboutPropsImage from '../assets/images/blogs/AllAboutProps.png';
 import propTypesAndDefaultPropsImage from '../assets/images/blogs/prop-types-default-props.png';
+import conditionalRenderingImage from '../assets/images/blogs/conditional rendering.png';
 
 const Blogs = () => {
   const blogsData = [
+    {
+      blogTitle: 'Conditional Rendering and Rendering List in React',
+      blogDescription:
+        'Sometimes we want to show a React component when a condition yields true. It is called Conditional Rendering. Also, rendering through a list of values to display a Component multiple times is very common in React. In this blog, we are discussing these two topics.',
+      blogImage: conditionalRenderingImage,
+      blogLink:
+        'https://dev.to/debajit13/conditional-rendering-and-rendering-list-in-react-4886',
+    },
     {
       blogTitle: 'Prop Types and Default Props in React',
       blogDescription:
