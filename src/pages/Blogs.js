@@ -9,9 +9,18 @@ import indepthStateImage from '../assets/images/blogs/InDepthState.png';
 import allAboutPropsImage from '../assets/images/blogs/AllAboutProps.png';
 import propTypesAndDefaultPropsImage from '../assets/images/blogs/prop-types-default-props.png';
 import conditionalRenderingImage from '../assets/images/blogs/conditional rendering.png';
+import deepDiveIntoUseReducerImage from '../assets/images/blogs/deepDiveUseReducer.png';
 
 const Blogs = () => {
   const blogsData = [
+    {
+      blogTitle: 'Deep Dive Into the useReducer() hook',
+      blogDescription:
+        'In React, useReducer() is one of the most important hooks. We use the useState() hook for component-based state management. That is good if your component only has two or three states. But if you have many states in the component, then useReducer() can be a better choice.',
+      blogImage: deepDiveIntoUseReducerImage,
+      blogLink:
+        'https://dev.to/debajit13/deep-dive-into-the-usereducer-hook-1kom',
+    },
     {
       blogTitle: 'Conditional Rendering and Rendering List in React',
       blogDescription:
