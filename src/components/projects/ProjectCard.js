@@ -27,7 +27,7 @@ const ProjectCard = ({ title, description, image, webURL, githubURL }) => {
             </Grid>
             <Grid sm={8}>
               <Box className='d-flex flex-column ms-md-3 mt-3 mt-md-0'>
-                <Typography variant='h4' component='h1'>
+                <Typography variant='h4' component='h2'>
                   {title}
                 </Typography>
                 <Typography>
