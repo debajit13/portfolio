@@ -38,6 +38,11 @@ const navItems = [
     key: 'blogs',
     path: '/blogs',
   },
+  {
+    name: 'Talks',
+    key: 'talks',
+    path: '/talks',
+  },
 ];
 
 const Image = styled.img`
