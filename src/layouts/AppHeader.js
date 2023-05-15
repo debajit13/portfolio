@@ -61,15 +61,17 @@ function AppHeader(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'left' }}>
-      <img
-        src={logo}
-        height='45px'
-        className='m-2'
-        style={{
-          borderRadius: '50%',
-        }}
-        alt='Debajit Mallick'
-      />
+      <Link to='/'>
+        <img
+          src={logo}
+          height='45px'
+          className='m-2'
+          style={{
+            borderRadius: '50%',
+          }}
+          alt='Debajit Mallick'
+        />
+      </Link>
       <Divider />
       <List>
         {navItems.map((navItem) => (
@@ -110,15 +112,17 @@ function AppHeader(props) {
               alignItems: 'center',
             }}
           >
-            <Image
-              src={logo}
-              alt='Debajit Mallick'
-              height='45px'
-              className='d-xs-none'
-              style={{
-                borderRadius: '50%',
-              }}
-            />
+            <Link to='/'>
+              <Image
+                src={logo}
+                alt='Debajit Mallick'
+                height='45px'
+                className='d-xs-none'
+                style={{
+                  borderRadius: '50%',
+                }}
+              />
+            </Link>
             <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
               {navItems.map((item) => (
                 <Link to={item.path} key={item.key}>

@@ -11,8 +11,8 @@ const Skills = () => {
             item={true}
             key={skill.name}
             md={4}
-            sm={12}
-            xs={12}
+            sm={6}
+            xs={6}
             textAlign='center'
           >
             <Card className='p-4 w-100' variant='elevation'>
