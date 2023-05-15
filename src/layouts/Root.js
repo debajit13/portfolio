@@ -14,7 +14,7 @@ const Root = () => {
     <div className='h-100'>
       <AppHeader />
       <Toolbar />
-      <Container className='pb-3'>
+      <Container className='pb-3 mt-3'>
         <Outlet />
       </Container>
       <AppFooter />
