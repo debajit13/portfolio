@@ -21,6 +21,11 @@ import JavaScriptLogo from '../assets/images/skills/javascript.svg';
 import ReactLogo from '../assets/images/skills/react.svg';
 import VueLogo from '../assets/images/skills/vue.svg';
 import TypeScriptLogo from '../assets/images/skills/typescript.svg';
+// import contact icons
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import EmailIcon from '@mui/icons-material/Email';
 
 export const blogsData = [
   {
@@ -246,6 +251,10 @@ export const skillsData = [
     image: JavaScriptLogo,
   },
   {
+    name: 'TypeScript',
+    image: TypeScriptLogo,
+  },
+  {
     name: 'React.js',
     image: ReactLogo,
   },
@@ -253,8 +262,27 @@ export const skillsData = [
     name: 'Vue.js',
     image: VueLogo,
   },
+];
+
+export const contactsData = [
   {
-    name: 'TypeScript',
-    image: TypeScriptLogo,
+    id: 'Github',
+    icon: <GitHubIcon fontSize='large' />,
+    url: 'https://github.com/debajit13',
+  },
+  {
+    id: 'LinkedIn',
+    icon: <LinkedInIcon fontSize='large' />,
+    url: 'https://www.linkedin.com/in/debajit-mallick/',
+  },
+  {
+    id: 'Twitter',
+    icon: <TwitterIcon fontSize='large' />,
+    url: 'https://twitter.com/MallickDebajit',
+  },
+  {
+    id: 'Email',
+    icon: <EmailIcon fontSize='large' />,
+    url: 'mailto:mallickdebajit3@gmail.com',
   },
 ];
