@@ -23,7 +23,6 @@ const Home = () => {
               border: '4px solid #fff',
               boxShadow: '0px 6px 12px #ccc',
             }}
-            loading='lazy'
           />
         </Grid>
         <Grid
