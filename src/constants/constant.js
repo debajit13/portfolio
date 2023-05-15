@@ -14,6 +14,13 @@ import shortLinkLogo from '../assets/images/projects/short_link_logo.png';
 import gameStarLogo from '../assets/images/projects/game_star_logo.png';
 import jokeReactLogo from '../assets/images/projects/joke_react.png';
 import jseekrLogo from '../assets/images/projects/jseekr.svg';
+// import skill logos
+import HTML5Logo from '../assets/images/skills/html5.svg';
+import CSS3Logo from '../assets/images/skills/css3.svg';
+import JavaScriptLogo from '../assets/images/skills/javascript.svg';
+import ReactLogo from '../assets/images/skills/react.svg';
+import VueLogo from '../assets/images/skills/vue.svg';
+import TypeScriptLogo from '../assets/images/skills/typescript.svg';
 
 export const blogsData = [
   {
@@ -222,5 +229,32 @@ export const talksData = [
     date: 'April 9, 2023',
     organiser: 'GDSC WOW Kolkata',
     type: 'Offline',
+  },
+];
+
+export const skillsData = [
+  {
+    name: 'HTML 5',
+    image: HTML5Logo,
+  },
+  {
+    name: 'CSS 3',
+    image: CSS3Logo,
+  },
+  {
+    name: 'JavaScript',
+    image: JavaScriptLogo,
+  },
+  {
+    name: 'React.js',
+    image: ReactLogo,
+  },
+  {
+    name: 'Vue.js',
+    image: VueLogo,
+  },
+  {
+    name: 'TypeScript',
+    image: TypeScriptLogo,
   },
 ];
