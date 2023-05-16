@@ -294,7 +294,7 @@ export const contactsData = [
 
 export const testimonialsData = [
   {
-    name: 'Haimontika Mitra',
+    name: 'Haimantika Mitra',
     role: 'Developer Advocate @Appwrite',
     testimonial:
       "I have worked with Debajit for Smart India Hackathon 2020, being a part of the winning team, I can vouch on Debajit's technical skills. His expertise on React and quick learning power amazed me! A dedicated learner with amazing tech skills!",
