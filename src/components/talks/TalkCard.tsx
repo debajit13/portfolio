@@ -1,6 +1,11 @@
 import { Card, CardContent, Typography } from '@mui/material';
 
-const TalkCard = ({ date, type, title, organiser }) => {
+const TalkCard: React.FC<{
+  date: string;
+  type: string;
+  title: string;
+  organiser: string;
+}> = ({ date, type, title, organiser }) => {
   return (
     <Card className='mb-3'>
       <CardContent>

@@ -1,5 +1,5 @@
 import { Link, Typography } from '@mui/material';
-import { contactsData } from '../../constants/constant.js';
+import { contactsData } from '../../constants/constant';
 
 const Contact = () => {
   return (

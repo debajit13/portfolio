@@ -3,7 +3,6 @@ import { Toolbar } from '@mui/material';
 import { Container } from '@mui/system';
 import { Outlet, useLocation } from 'react-router-dom';
 import AppHeader from './AppHeader';
-import AppFooter from './AppFooter';
 
 const Root = () => {
   const { pathname } = useLocation();
@@ -17,7 +16,6 @@ const Root = () => {
       <Container className='pb-3 mt-3'>
         <Outlet />
       </Container>
-      <AppFooter />
     </div>
   );
 };

@@ -18,13 +18,14 @@ A ReactJS and Material UI based portfolio website.
 
 ### Laptop Device:
 
-<img  height='500px' src="./src/assets/screenshots/screenshot_laptop.png">
+<img  height='400px' src="./src/assets/screenshots/screenshot_laptop.png">
 
 ## Tech/ Framework Used
 
 **Built with**
 
 1. [ReactJS](https://reactjs.org/)
+1. [TypeScript](https://www.typescriptlang.org/)
 1. [MUI](https://mui.com/)
 1. [Styled Components](https://styled-components.com/)
 1. [Bootstrap](https://getbootstrap.com/)
