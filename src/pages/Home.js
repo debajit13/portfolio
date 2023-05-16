@@ -3,6 +3,7 @@ import About from '../components/home/About';
 import profileImage from '../assets/images/profile_pic.jpeg';
 import Skills from '../components/home/Skills';
 import Contact from '../components/home/Contact';
+import Testimonial from '../components/home/Testimonial';
 
 const Home = () => {
   return (
@@ -36,6 +37,7 @@ const Home = () => {
       </Grid>
 
       <Skills />
+      <Testimonial />
       <Contact />
     </>
   );

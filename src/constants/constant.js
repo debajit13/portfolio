@@ -26,6 +26,11 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import EmailIcon from '@mui/icons-material/Email';
+// import testimonial images
+import HaimontikaPhoto from '../assets/images/testimonials/haimontika.jpeg';
+import SonaliPhoto from '../assets/images/testimonials/sonali.jpeg';
+import AvirupPhoto from '../assets/images/testimonials/avirup.jpeg';
+import DeekshaPhoto from '../assets/images/testimonials/deeksha.jpeg';
 
 export const blogsData = [
   {
@@ -284,5 +289,36 @@ export const contactsData = [
     id: 'Email',
     icon: <EmailIcon fontSize='large' />,
     url: 'mailto:mallickdebajit3@gmail.com',
+  },
+];
+
+export const testimonialsData = [
+  {
+    name: 'Haimontika Mitra',
+    role: 'Developer Advocate @Appwrite',
+    testimonial:
+      "I have worked with Debajit for Smart India Hackathon 2020, being a part of the winning team, I can vouch on Debajit's technical skills. His expertise on React and quick learning power amazed me! A dedicated learner with amazing tech skills!",
+    image: HaimontikaPhoto,
+  },
+  {
+    name: 'Avirup Basu',
+    role: 'Tech Lead(IoT) @P360',
+    testimonial:
+      'Debajit is a great individual and has amazing skills when it comes to frontend development. He is a quick learner and knows how to handle tasks real well. I have worked with him on several occasions and every time, it was a great experience. He can empower others too through community events.',
+    image: AvirupPhoto,
+  },
+  {
+    name: 'Deeksha Gupta',
+    role: 'Product Manager @Rate.ai | TIKAJ',
+    testimonial:
+      'Debajit has been a very dedicated and sincere addition to our team. The time span he has spent with us, he proved his worth and his passion towards learning new concepts. I am sure he will be an indispensable asset to any team or project!',
+    image: DeekshaPhoto,
+  },
+  {
+    name: 'Sonali Parab',
+    role: 'Senior Software Engineer @P360',
+    testimonial:
+      'When Debajit joined P360, he was working under me. He is quick learner who is very enthusiastic about his work.He possesses excellent logical skills.I m delighted to work with you. keep going Debajit.',
+    image: SonaliPhoto,
   },
 ];
