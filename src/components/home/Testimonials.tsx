@@ -14,6 +14,7 @@ const Testimonial = () => {
               alt={testimonialData.name}
               className='rounded-circle mb-2'
               height='150px'
+              loading='lazy'
             />
             <Typography variant='h4' component='h2'>
               {testimonialData.name}

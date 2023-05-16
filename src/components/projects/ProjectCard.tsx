@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import {
   Button,
   Card,
@@ -10,7 +9,13 @@ import {
 import { Link } from '@mui/icons-material';
 import { Box } from '@mui/system';
 
-const ProjectCard = ({ title, description, image, webURL, githubURL }) => {
+const ProjectCard: React.FC<{
+  title: string;
+  description: string;
+  image: string;
+  webURL: string;
+  githubURL: string;
+}> = ({ title, description, image, webURL, githubURL }) => {
   return (
     <>
       <Card className='mb-3'>
@@ -62,14 +67,6 @@ const ProjectCard = ({ title, description, image, webURL, githubURL }) => {
       </Card>
     </>
   );
-};
-
-ProjectCard.propTypes = {
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired,
-  webURL: PropTypes.string.isRequired,
-  githubURL: PropTypes.string.isRequired,
 };
 
 export default ProjectCard;

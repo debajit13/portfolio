@@ -1,8 +1,12 @@
-import PropTypes from 'prop-types';
 import { Link } from '@mui/icons-material';
 import { Button, Card, Grid, Typography } from '@mui/material';
 
-const BlogCard = ({ blogTitle, blogDescription, blogLink, blogImage }) => {
+const BlogCard: React.FC<{
+  blogTitle: string;
+  blogDescription: string;
+  blogLink: string;
+  blogImage: string;
+}> = ({ blogTitle, blogDescription, blogLink, blogImage }) => {
   return (
     <Card className='mb-4'>
       <Grid container>
@@ -35,13 +39,6 @@ const BlogCard = ({ blogTitle, blogDescription, blogLink, blogImage }) => {
       </Grid>
     </Card>
   );
-};
-
-BlogCard.propTypes = {
-  blogTitle: PropTypes.string.isRequired,
-  blogDescription: PropTypes.string.isRequired,
-  blogLink: PropTypes.string.isRequired,
-  blogImage: PropTypes.string.isRequired,
 };
 
 export default BlogCard;
