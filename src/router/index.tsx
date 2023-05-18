@@ -2,9 +2,9 @@ import { Suspense, lazy } from 'react';
 import { createBrowserRouter } from 'react-router-dom';
 import Error from '../components/errorElement/Error';
 import Root from '../layouts/Root';
+import Home from '../pages/Home';
 const Blogs = lazy(() => import('../pages/Blogs'));
 const Experiences = lazy(() => import('../pages/Experiences'));
-const Home = lazy(() => import('../pages/Home'));
 const Projects = lazy(() => import('../pages/Projects'));
 const Talks = lazy(() => import('../pages/Talks'));
 
@@ -15,11 +15,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: (
-          <Suspense fallback={<p>Loading...</p>}>
-            <Home />
-          </Suspense>
-        ),
+        element: <Home />,
       },
       {
         path: '/projects',
