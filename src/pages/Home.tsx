@@ -10,6 +10,7 @@ const Home = () => {
     <>
       <Grid container>
         <Grid
+          item
           md={6}
           sm={12}
           xs={12}
@@ -27,6 +28,7 @@ const Home = () => {
           />
         </Grid>
         <Grid
+          item
           md={6}
           sm={12}
           xs={12}
