@@ -1,11 +1,12 @@
+import { Suspense, lazy } from 'react';
 import { createBrowserRouter } from 'react-router-dom';
 import Error from '../components/errorElement/Error';
 import Root from '../layouts/Root';
-import Blogs from '../pages/Blogs';
-import Experiences from '../pages/Experiences';
-import Home from '../pages/Home';
-import Projects from '../pages/Projects';
-import Talks from '../pages/Talks';
+const Blogs = lazy(() => import('../pages/Blogs'));
+const Experiences = lazy(() => import('../pages/Experiences'));
+const Home = lazy(() => import('../pages/Home'));
+const Projects = lazy(() => import('../pages/Projects'));
+const Talks = lazy(() => import('../pages/Talks'));
 
 const router = createBrowserRouter([
   {
@@ -14,24 +15,44 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Home />,
+        element: (
+          <Suspense fallback={<p>Loading...</p>}>
+            <Home />
+          </Suspense>
+        ),
       },
       {
         path: '/projects',
-        element: <Projects />,
+        element: (
+          <Suspense fallback={<p>Loading...</p>}>
+            <Projects />
+          </Suspense>
+        ),
       },
 
       {
         path: '/experiences',
-        element: <Experiences />,
+        element: (
+          <Suspense fallback={<p>Loading...</p>}>
+            <Experiences />
+          </Suspense>
+        ),
       },
       {
         path: '/blogs',
-        element: <Blogs />,
+        element: (
+          <Suspense fallback={<p>Loading...</p>}>
+            <Blogs />
+          </Suspense>
+        ),
       },
       {
         path: '/talks',
-        element: <Talks />,
+        element: (
+          <Suspense fallback={<p>Loading...</p>}>
+            <Talks />
+          </Suspense>
+        ),
       },
     ],
     errorElement: <Error />,
