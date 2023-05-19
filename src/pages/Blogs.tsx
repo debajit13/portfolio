@@ -11,6 +11,7 @@ const Blogs = () => {
       {blogsData.length > 0 &&
         blogsData.map((blogData) => (
           <BlogCard
+            key={blogData.blogTitle}
             blogTitle={blogData.blogTitle}
             blogDescription={blogData.blogDescription}
             blogLink={blogData.blogLink}
