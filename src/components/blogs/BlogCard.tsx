@@ -10,7 +10,7 @@ const BlogCard: React.FC<{
   return (
     <Card className='mb-4'>
       <Grid container>
-        <Grid md={4}>
+        <Grid item md={4}>
           <img
             src={blogImage}
             alt='blog logo'
@@ -19,7 +19,7 @@ const BlogCard: React.FC<{
             loading='lazy'
           />
         </Grid>
-        <Grid md={8} padding={2}>
+        <Grid item md={8} padding={2}>
           <Typography variant='h5' className='ms-2 mb-3'>
             {blogTitle}
           </Typography>

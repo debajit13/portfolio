@@ -10,6 +10,7 @@ const Talks = () => {
       </Typography>
       {talksData.map((talk) => (
         <TalkCard
+          key={talk.title}
           title={talk.title}
           date={talk.date}
           type={talk.type}

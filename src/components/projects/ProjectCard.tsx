@@ -21,7 +21,7 @@ const ProjectCard: React.FC<{
       <Card className='mb-3'>
         <CardContent className='d-flex'>
           <Grid container>
-            <Grid sm={2}>
+            <Grid item sm={2}>
               <CardMedia
                 image={image}
                 component='img'
@@ -30,7 +30,7 @@ const ProjectCard: React.FC<{
                 loading='lazy'
               />
             </Grid>
-            <Grid sm={8}>
+            <Grid item sm={8}>
               <Box className='d-flex flex-column ms-md-3 mt-3 mt-md-0'>
                 <Typography variant='h4' component='h2'>
                   {title}
