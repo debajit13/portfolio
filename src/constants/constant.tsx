@@ -31,6 +31,7 @@ import HaimontikaPhoto from '../assets/images/testimonials/haimontika.jpeg';
 import SonaliPhoto from '../assets/images/testimonials/sonali.jpeg';
 import AvirupPhoto from '../assets/images/testimonials/avirup.jpeg';
 import DeekshaPhoto from '../assets/images/testimonials/deeksha.jpeg';
+import SaumikPhoto from '../assets/images/testimonials/saumik.jpeg';
 
 export const blogsData = [
   {
@@ -313,6 +314,13 @@ export const testimonialsData = [
     testimonial:
       'Debajit has been a very dedicated and sincere addition to our team. The time span he has spent with us, he proved his worth and his passion towards learning new concepts. I am sure he will be an indispensable asset to any team or project!',
     image: DeekshaPhoto,
+  },
+  {
+    name: 'Saumik Sarkar',
+    role: 'SDE 2 @5x',
+    testimonial:
+      'Debajit is a self motivating person. The best part of working with him is that he would come up with innovative ideas and solutions and make the challenges go away in no time. I remember a time when our team was struggling to solve a problem related to API performance, Debajit came to the rescue and in no time motivated the team and solved it. He is a team person, has the ability to visualise future goals. I would consider the team lucky if Debajit is on it.',
+    image: SaumikPhoto,
   },
   {
     name: 'Sonali Parab',
