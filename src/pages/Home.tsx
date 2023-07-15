@@ -4,6 +4,7 @@ import profileImage from '../assets/images/profile_pic.jpeg';
 import Skills from '../components/home/Skills';
 import Contact from '../components/home/Contact';
 import Testimonial from '../components/home/Testimonials';
+import Achievements from '../components/home/Achievements';
 
 const Home = () => {
   return (
@@ -40,6 +41,7 @@ const Home = () => {
 
       <Skills />
       <Testimonial />
+      <Achievements />
       <Contact />
     </>
   );
