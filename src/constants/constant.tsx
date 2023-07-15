@@ -330,3 +330,13 @@ export const testimonialsData = [
     image: SonaliPhoto,
   },
 ];
+
+export const achievementsData = [
+  'Mentor and Judge of Hack4Bengal 2.0 Hackathon.',
+  'Mentor of team OrganiCod3rs, the Winner of Smart India Hackathon 2022, Software Edition.',
+  'Mentor of GirlScript Summer of Code 2023.',
+  'Member of Team Delenitors, the Winner of Smart India Hackathon 2020, Software Edition.',
+  'Top Contributor of GirlScript Winter of Code 2021.',
+  'Top Contributor of HacktoberFest 2019 and HacktoberFest 2020.',
+  'Top Contributor of JGEC Winter of Code 2020',
+];
