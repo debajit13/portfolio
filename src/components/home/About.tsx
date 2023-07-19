@@ -20,7 +20,7 @@ const About = () => {
         <span className='fw-bold'>Frontend Web Development</span>.
       </Typography>
       <Typography padding={1} variant='body1'>
-        Currently, I am learning Angular. I am very active in technical
+        Currently, I am learning NextJS. I am very active in technical
         communities. I am the{' '}
         <span className='fw-bold'>Organizer of GDG Siliguri</span>,{' '}
         <span className='fw-bold'>Ex β-MLSA</span>,{' '}
