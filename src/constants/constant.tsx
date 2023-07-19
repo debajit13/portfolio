@@ -1,37 +1,8 @@
-// import blog images
-import thisKeywordImage from '../assets/images/blogs/thisKeywordBlog.jpg';
-import javaScriptVariablesImage from '../assets/images/blogs/javascriptVariables.jpg';
-import getStartedWithTypeScriptImage from '../assets/images/blogs/getStartedWithTypeScript.jpg';
-import deepDiveIntoGit1 from '../assets/images/blogs/deepDiveIntoGit1.jpg';
-import deepDiveIntoGit2 from '../assets/images/blogs/deepDiveIntoGit2.jpg';
-import indepthStateImage from '../assets/images/blogs/InDepthState.jpg';
-import allAboutPropsImage from '../assets/images/blogs/AllAboutProps.jpg';
-import propTypesAndDefaultPropsImage from '../assets/images/blogs/prop-types-default-props.jpg';
-import conditionalRenderingImage from '../assets/images/blogs/conditional rendering.jpg';
-import deepDiveIntoUseReducerImage from '../assets/images/blogs/deepDiveUseReducer.jpg';
-// import project images
-import shortLinkLogo from '../assets/images/projects/short_link_logo.png';
-import gameStarLogo from '../assets/images/projects/game_star_logo.png';
-import jokeReactLogo from '../assets/images/projects/joke_react.png';
-import jseekrLogo from '../assets/images/projects/jseekr.svg';
-// import skill logos
-import HTML5Logo from '../assets/images/skills/html5.svg';
-import CSS3Logo from '../assets/images/skills/css3.svg';
-import JavaScriptLogo from '../assets/images/skills/javascript.svg';
-import ReactLogo from '../assets/images/skills/react.svg';
-import VueLogo from '../assets/images/skills/vue.svg';
-import TypeScriptLogo from '../assets/images/skills/typescript.svg';
 // import contact icons
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import EmailIcon from '@mui/icons-material/Email';
-// import testimonial images
-import HaimontikaPhoto from '../assets/images/testimonials/haimontika.jpeg';
-import SonaliPhoto from '../assets/images/testimonials/sonali.jpeg';
-import AvirupPhoto from '../assets/images/testimonials/avirup.jpeg';
-import DeekshaPhoto from '../assets/images/testimonials/deeksha.jpeg';
-import SaumikPhoto from '../assets/images/testimonials/saumik.jpeg';
 
 export const blogsData = [
   {
