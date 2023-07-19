@@ -18,7 +18,7 @@ const Home = () => {
           className='d-flex align-items-center justify-content-center mb-4 mt-4 mb-md-0 mt-md-0'
         >
           <img
-            src={profileImage}
+            src='https://ik.imagekit.io/debajit13/profile_pic.jpeg?updatedAt=1689744597272'
             alt='profile pic'
             width='80%'
             style={{
