@@ -131,21 +131,15 @@ export const projectsData = [
 
 export const talksData = [
   {
-    title: 'Take Your First Steps with VueJS',
-    date: 'September 10, 2022',
-    organiser: 'Frontenddays Siliguri',
-    type: 'Offline',
+    title: 'Building Engaging User Interfaces: A Frontend Journey',
+    date: 'July 22, 2023',
+    organiser: 'IEEE PIT SB',
+    type: 'Online',
   },
   {
-    title: 'Overview of Azure Technology',
-    date: 'June 12, 2022',
-    organiser: 'Azure DevDay Siliguri',
-    type: 'Offline',
-  },
-  {
-    title: 'Intro to ReactJS (Frontend Marathon)',
-    date: 'June 6, 2021',
-    organiser: 'Codecademy',
+    title: 'Build Your First CRUD App using React and Firebase',
+    date: 'April 9, 2023',
+    organiser: 'GDSC WOW Kolkata',
     type: 'Offline',
   },
   {
@@ -155,27 +149,21 @@ export const talksData = [
     type: 'Offline',
   },
   {
-    title: 'How to become a Job Ready Frontend Developer',
-    date: 'February 18, 2023',
-    organiser: 'JWOC',
+    title: 'Take Your First Steps with VueJS',
+    date: 'September 10, 2022',
+    organiser: 'Frontenddays Siliguri',
+    type: 'Offline',
+  },
+  {
+    title: 'Intro to ReactJS (Frontend Marathon)',
+    date: 'June 6, 2021',
+    organiser: 'Codecademy',
     type: 'Offline',
   },
   {
     title: 'Demystifying The Frontend Development ',
     date: 'August 13, 2022',
     organiser: 'GDG Siliguri',
-    type: 'Offline',
-  },
-  {
-    title: 'Get Started with Git and GitHub',
-    date: 'February 3, 2022',
-    organiser: 'Microsoft Learn Student Ambassadors',
-    type: 'Online',
-  },
-  {
-    title: 'Getting Started with Git and GitHub',
-    date: 'November 18, 2019',
-    organiser: 'Hack Club SIT',
     type: 'Offline',
   },
   {
@@ -191,16 +179,40 @@ export const talksData = [
     type: 'Online',
   },
   {
-    title: 'Hack the Best: Hacktoberfest',
-    date: 'October 2, 2020',
-    organiser: 'DSC SIT X Hack Club SIT',
-    type: 'Online',
-  },
-  {
     title: 'Boost Your Career in Frontend Development ',
     date: 'March 24, 2023',
     organiser: 'Techne Association',
     type: 'Offline',
+  },
+  {
+    title: 'How to become a Job Ready Frontend Developer',
+    date: 'February 18, 2023',
+    organiser: 'JWOC',
+    type: 'Offline',
+  },
+  {
+    title: 'Overview of Azure Technology',
+    date: 'June 12, 2022',
+    organiser: 'Azure DevDay Siliguri',
+    type: 'Offline',
+  },
+  {
+    title: 'Get Started with Git and GitHub',
+    date: 'February 3, 2022',
+    organiser: 'Microsoft Learn Student Ambassadors',
+    type: 'Online',
+  },
+  {
+    title: 'Getting Started with Git and GitHub',
+    date: 'November 18, 2019',
+    organiser: 'Hack Club SIT',
+    type: 'Offline',
+  },
+  {
+    title: 'Hack the Best: Hacktoberfest',
+    date: 'October 2, 2020',
+    organiser: 'DSC SIT X Hack Club SIT',
+    type: 'Online',
   },
   {
     title: 'An Introduction to Engineering',
@@ -218,12 +230,6 @@ export const talksData = [
     title: 'Open Source and GSSoC 2020',
     date: 'December 15, 2019',
     organiser: 'GirlScript Siliguri',
-    type: 'Offline',
-  },
-  {
-    title: 'Build Your First CRUD App using React and Firebase',
-    date: 'April 9, 2023',
-    organiser: 'GDSC WOW Kolkata',
     type: 'Offline',
   },
 ];
