@@ -131,6 +131,12 @@ export const projectsData = [
 
 export const talksData = [
   {
+    title: 'Top Web Things at Google I/O 2k23',
+    date: 'August 02, 2023',
+    organiser: 'GDG Siliguri (Google I/O Extended Siliguri 2023)',
+    type: 'Offline',
+  },
+  {
     title: 'Building Engaging User Interfaces: A Frontend Journey',
     date: 'July 22, 2023',
     organiser: 'IEEE PIT SB',
