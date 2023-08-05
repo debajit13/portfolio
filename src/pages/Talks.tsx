@@ -15,6 +15,8 @@ const Talks = () => {
           date={talk.date}
           type={talk.type}
           organiser={talk.organiser}
+          youtubeLink={talk?.youtubeLink}
+          slidesLink={talk?.slidesLink}
         />
       ))}
     </div>

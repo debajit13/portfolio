@@ -135,42 +135,58 @@ export const talksData = [
     date: 'August 02, 2023',
     organiser: 'GDG Siliguri (Google I/O Extended Siliguri 2023)',
     type: 'Offline',
+    youtubeLink: 'https://youtu.be/ovSLa2AWScA',
+    slidesLink:
+      'https://github.com/debajit13/tech-session-resources/blob/main/Google%20IO%202023%20Web%20Updates.pdf',
   },
   {
     title: 'Building Engaging User Interfaces: A Frontend Journey',
     date: 'July 22, 2023',
     organiser: 'IEEE PIT SB',
     type: 'Online',
+    youtubeLink: 'https://youtu.be/TI5JotKsfAc',
+    slidesLink:
+      'https://github.com/debajit13/tech-session-resources/blob/main/Building%20Engaging%20User%20Interfaces%20A%20Frontend%20Journey%20PPT.pdf',
   },
   {
     title: 'Build Your First CRUD App using React and Firebase',
     date: 'April 9, 2023',
     organiser: 'GDSC WOW Kolkata',
     type: 'Offline',
+    youtubeLink: 'https://youtu.be/bfv-pJA-YNw',
   },
   {
     title: 'Frontend: The Hard Parts',
     date: 'March 3, 2023',
     organiser: 'GDSC SIT',
     type: 'Offline',
+    slidesLink:
+      'https://github.com/debajit13/tech-session-resources/blob/main/Frontend%20Hard%20Parts.pdf',
   },
   {
     title: 'Take Your First Steps with VueJS',
     date: 'September 10, 2022',
     organiser: 'Frontenddays Siliguri',
     type: 'Offline',
+    slidesLink:
+      'https://github.com/debajit13/tech-session-resources/blob/main/Take%20Your%20First%20Steps%20With%20VueJS.pdf',
   },
   {
     title: 'Intro to ReactJS (Frontend Marathon)',
     date: 'June 6, 2021',
     organiser: 'Codecademy',
     type: 'Offline',
+    youtubeLink: 'https://youtu.be/eJjrkygLwew',
+    slidesLink:
+      'https://github.com/debajit13/tech-session-resources/blob/main/Intro%20To%20ReactJS.pdf',
   },
   {
     title: 'Demystifying The Frontend Development ',
     date: 'August 13, 2022',
     organiser: 'GDG Siliguri',
     type: 'Offline',
+    slidesLink:
+      'https://github.com/debajit13/tech-session-resources/blob/main/Demystifying%20Frontend%20Development.pdf',
   },
   {
     title: 'All About Frontend',
@@ -183,12 +199,15 @@ export const talksData = [
     date: 'January 12, 2022',
     organiser: 'GDG Bhopal X NEXTJS Developer Community India',
     type: 'Online',
+    youtubeLink: 'https://www.youtube.com/live/tkm9fR3G5TI?feature=share',
   },
   {
     title: 'Boost Your Career in Frontend Development ',
     date: 'March 24, 2023',
     organiser: 'Techne Association',
     type: 'Offline',
+    slidesLink:
+      'https://github.com/debajit13/tech-session-resources/blob/main/Boost%20your%20Career%20in%20Frontend%20Development%20PPT.pdf',
   },
   {
     title: 'How to become a Job Ready Frontend Developer',
@@ -201,18 +220,24 @@ export const talksData = [
     date: 'June 12, 2022',
     organiser: 'Azure DevDay Siliguri',
     type: 'Offline',
+    slidesLink:
+      'https://github.com/debajit13/tech-session-resources/blob/main/Azure%20Devday.pdf',
   },
   {
     title: 'Get Started with Git and GitHub',
     date: 'February 3, 2022',
     organiser: 'Microsoft Learn Student Ambassadors',
     type: 'Online',
+    slidesLink:
+      'https://github.com/debajit13/tech-session-resources/blob/main/All%20About%20Git%20and%20Github.pdf',
   },
   {
     title: 'Getting Started with Git and GitHub',
     date: 'November 18, 2019',
     organiser: 'Hack Club SIT',
     type: 'Offline',
+    slidesLink:
+      'https://github.com/debajit13/tech-session-resources/blob/main/All%20About%20Git%20and%20Github.pdf',
   },
   {
     title: 'Hack the Best: Hacktoberfest',
