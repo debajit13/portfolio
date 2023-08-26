@@ -131,6 +131,15 @@ export const projectsData = [
 
 export const talksData = [
   {
+    title: "Beyond the Browser: A Look at Google I/O 2023's Web Enhancements",
+    date: 'August 25, 2023',
+    organiser: 'GDG Durgapur (Google I/O Extended Durgapur 2023)',
+    type: 'Offline',
+    youtubeLink: 'https://youtu.be/N7ayafLm4GI',
+    slidesLink:
+      "https://github.com/debajit13/tech-session-resources/blob/main/Beyond%20the%20Browser_%20A%20Look%20at%20Google%20I_O%202023's%20Web%20Enhancements.pdf",
+  },
+  {
     title: 'Top Web Things at Google I/O 2k23',
     date: 'August 02, 2023',
     organiser: 'GDG Siliguri (Google I/O Extended Siliguri 2023)',
