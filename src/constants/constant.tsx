@@ -158,6 +158,15 @@ export const talksData = [
       'https://github.com/debajit13/tech-session-resources/blob/main/Building%20Engaging%20User%20Interfaces%20A%20Frontend%20Journey%20PPT.pdf',
   },
   {
+    title: 'Tech Talks and Beyond: Enhancing Learning in Technical Communities',
+    date: 'August 30, 2023',
+    organiser: 'GDSC SurTech',
+    type: 'Online',
+    youtubeLink: 'https://youtu.be/bx9BwaVS_QQ',
+    slidesLink:
+      'https://github.com/debajit13/tech-session-resources/blob/main/Tech%20Talks%20and%20Beyond%20Enhancing%20Learning%20in%20Technical%20Communities.pdf',
+  },
+  {
     title: 'Build Your First CRUD App using React and Firebase',
     date: 'April 9, 2023',
     organiser: 'GDSC WOW Kolkata',
