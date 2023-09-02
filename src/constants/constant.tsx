@@ -138,6 +138,7 @@ export const talksData = [
     youtubeLink: 'https://youtu.be/N7ayafLm4GI',
     slidesLink:
       "https://github.com/debajit13/tech-session-resources/blob/main/Beyond%20the%20Browser_%20A%20Look%20at%20Google%20I_O%202023's%20Web%20Enhancements.pdf",
+    topics: ['Frontend', 'HTML', 'CSS', 'JavaScript'],
   },
   {
     title: 'Top Web Things at Google I/O 2k23',
@@ -147,6 +148,7 @@ export const talksData = [
     youtubeLink: 'https://youtu.be/ovSLa2AWScA',
     slidesLink:
       'https://github.com/debajit13/tech-session-resources/blob/main/Google%20IO%202023%20Web%20Updates.pdf',
+    topics: ['Frontend', 'HTML', 'CSS', 'JavaScript'],
   },
   {
     title: 'Building Engaging User Interfaces: A Frontend Journey',
@@ -156,6 +158,7 @@ export const talksData = [
     youtubeLink: 'https://youtu.be/TI5JotKsfAc',
     slidesLink:
       'https://github.com/debajit13/tech-session-resources/blob/main/Building%20Engaging%20User%20Interfaces%20A%20Frontend%20Journey%20PPT.pdf',
+    topics: ['Frontend', 'ReactJS', 'Web Performance', 'Web Accessibility'],
   },
   {
     title: 'Tech Talks and Beyond: Enhancing Learning in Technical Communities',
@@ -165,6 +168,7 @@ export const talksData = [
     youtubeLink: 'https://youtu.be/bx9BwaVS_QQ',
     slidesLink:
       'https://github.com/debajit13/tech-session-resources/blob/main/Tech%20Talks%20and%20Beyond%20Enhancing%20Learning%20in%20Technical%20Communities.pdf',
+    topics: ['Mentorship', 'Tech Community'],
   },
   {
     title: 'Build Your First CRUD App using React and Firebase',
@@ -172,6 +176,7 @@ export const talksData = [
     organiser: 'GDSC WOW Kolkata',
     type: 'Offline',
     youtubeLink: 'https://youtu.be/bfv-pJA-YNw',
+    topics: ['Frontend', 'ReactJS', 'Firebase'],
   },
   {
     title: 'Frontend: The Hard Parts',
@@ -180,6 +185,7 @@ export const talksData = [
     type: 'Offline',
     slidesLink:
       'https://github.com/debajit13/tech-session-resources/blob/main/Frontend%20Hard%20Parts.pdf',
+    topics: ['Frontend', 'Mentorship'],
   },
   {
     title: 'Take Your First Steps with VueJS',
@@ -188,6 +194,7 @@ export const talksData = [
     type: 'Offline',
     slidesLink:
       'https://github.com/debajit13/tech-session-resources/blob/main/Take%20Your%20First%20Steps%20With%20VueJS.pdf',
+    topics: ['Frontend', 'VueJS'],
   },
   {
     title: 'Intro to ReactJS (Frontend Marathon)',
@@ -197,6 +204,7 @@ export const talksData = [
     youtubeLink: 'https://youtu.be/eJjrkygLwew',
     slidesLink:
       'https://github.com/debajit13/tech-session-resources/blob/main/Intro%20To%20ReactJS.pdf',
+    topics: ['Frontend', 'ReactJS'],
   },
   {
     title: 'Demystifying The Frontend Development ',
@@ -205,12 +213,14 @@ export const talksData = [
     type: 'Offline',
     slidesLink:
       'https://github.com/debajit13/tech-session-resources/blob/main/Demystifying%20Frontend%20Development.pdf',
+    topics: ['Frontend', 'HTML', 'CSS', 'JavaScript', 'ReactJS'],
   },
   {
     title: 'All About Frontend',
     date: 'May 11, 2022',
     organiser: 'Hack Club SIT',
     type: 'Offline',
+    topics: ['Frontend', 'Mentorship'],
   },
   {
     title: 'How you should React: For Beginners',
@@ -218,6 +228,7 @@ export const talksData = [
     organiser: 'GDG Bhopal X NEXTJS Developer Community India',
     type: 'Online',
     youtubeLink: 'https://www.youtube.com/live/tkm9fR3G5TI?feature=share',
+    topics: ['Frontend', 'ReactJS'],
   },
   {
     title: 'Boost Your Career in Frontend Development ',
@@ -226,12 +237,14 @@ export const talksData = [
     type: 'Offline',
     slidesLink:
       'https://github.com/debajit13/tech-session-resources/blob/main/Boost%20your%20Career%20in%20Frontend%20Development%20PPT.pdf',
+    topics: ['Frontend', 'Mentorship'],
   },
   {
     title: 'How to become a Job Ready Frontend Developer',
     date: 'February 18, 2023',
     organiser: 'JWOC',
     type: 'Offline',
+    topics: ['Frontend', 'Mentorship'],
   },
   {
     title: 'Overview of Azure Technology',
@@ -240,6 +253,7 @@ export const talksData = [
     type: 'Offline',
     slidesLink:
       'https://github.com/debajit13/tech-session-resources/blob/main/Azure%20Devday.pdf',
+    topics: ['Cloud', 'Azure'],
   },
   {
     title: 'Get Started with Git and GitHub',
@@ -248,6 +262,7 @@ export const talksData = [
     type: 'Online',
     slidesLink:
       'https://github.com/debajit13/tech-session-resources/blob/main/All%20About%20Git%20and%20Github.pdf',
+    topics: ['Git', 'GitHub', 'Version Control System'],
   },
   {
     title: 'Getting Started with Git and GitHub',
@@ -256,30 +271,35 @@ export const talksData = [
     type: 'Offline',
     slidesLink:
       'https://github.com/debajit13/tech-session-resources/blob/main/All%20About%20Git%20and%20Github.pdf',
+    topics: ['Git', 'GitHub', 'Version Control System'],
   },
   {
     title: 'Hack the Best: Hacktoberfest',
     date: 'October 2, 2020',
     organiser: 'DSC SIT X Hack Club SIT',
     type: 'Online',
+    topics: ['Git', 'GitHub', 'Open Source Contribution', 'Mentorship'],
   },
   {
     title: 'An Introduction to Engineering',
     date: 'October 11, 2020',
     organiser: 'Hack Club SIT',
     type: 'Online',
+    topics: ['Web', 'Mentorship'],
   },
   {
     title: 'Learn Git and GitHub with Abhinav and Debajit',
     date: 'March 18, 2020',
     organiser: 'GDG Siliguri',
     type: 'Online',
+    topics: ['Git', 'GitHub', 'Version Control System'],
   },
   {
     title: 'Open Source and GSSoC 2020',
     date: 'December 15, 2019',
     organiser: 'GirlScript Siliguri',
     type: 'Offline',
+    topics: ['Git', 'GitHub', 'Open Source Contribution', 'Mentorship'],
   },
 ];
 
