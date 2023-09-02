@@ -1,5 +1,12 @@
-import { Box, Button, Card, CardContent, Typography } from '@mui/material';
-import { Link } from '@mui/icons-material';
+import {
+  Box,
+  Button,
+  Card,
+  CardContent,
+  Chip,
+  Typography,
+} from '@mui/material';
+import { Link, SentimentDissatisfied } from '@mui/icons-material';
 
 const TalkCard: React.FC<{
   date: string;
@@ -8,7 +15,8 @@ const TalkCard: React.FC<{
   organiser: string;
   youtubeLink?: string;
   slidesLink?: string;
-}> = ({ date, type, title, organiser, youtubeLink, slidesLink }) => {
+  topics: string[];
+}> = ({ date, type, title, organiser, youtubeLink, slidesLink, topics }) => {
   return (
     <Card className='mb-3'>
       <CardContent>
@@ -21,33 +29,41 @@ const TalkCard: React.FC<{
         <Typography variant='h5' component='h3' className='mt-3'>
           {organiser}
         </Typography>
-        {(youtubeLink || slidesLink) && (
-          <Box marginTop={2}>
-            {youtubeLink && (
-              <Button
-                endIcon={<Link />}
-                variant='contained'
-                href={youtubeLink}
-                target='_blank'
-              >
-                Youtube
-              </Button>
-            )}
-            {slidesLink && (
-              <Button
-                endIcon={<Link />}
-                variant='contained'
-                href={slidesLink}
-                target='_blank'
-                sx={{
-                  ml: youtubeLink ? 1 : 0,
-                }}
-              >
-                Slides
-              </Button>
-            )}
-          </Box>
-        )}
+        <Box sx={{ marginTop: '10px' }}>
+          {topics &&
+            topics.map((topic) => (
+              <Chip
+                key={topic}
+                label={topic}
+                sx={{ margin: '3px 6px 3px 0px' }}
+              />
+            ))}
+        </Box>
+        <Box marginTop={2} display={'flex'}>
+          <Button
+            endIcon={youtubeLink && <Link />}
+            variant='contained'
+            href={youtubeLink || ''}
+            target='_blank'
+            disabled={youtubeLink ? false : true}
+          >
+            {youtubeLink ? 'Youtube' : <SentimentDissatisfied />}
+            {!youtubeLink && ' Video is Unavailable!'}
+          </Button>
+          <Button
+            endIcon={<Link />}
+            variant='contained'
+            href={slidesLink || ''}
+            target='_blank'
+            sx={{
+              ml: 1,
+            }}
+            disabled={slidesLink ? false : true}
+          >
+            {slidesLink ? 'Slides' : <SentimentDissatisfied />}
+            {!slidesLink && ' Slides are Unavailable!'}
+          </Button>
+        </Box>
       </CardContent>
     </Card>
   );
