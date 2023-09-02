@@ -17,6 +17,7 @@ const Talks = () => {
           organiser={talk.organiser}
           youtubeLink={talk?.youtubeLink}
           slidesLink={talk?.slidesLink}
+          topics={talk.topics}
         />
       ))}
     </div>
