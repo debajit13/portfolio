@@ -6,6 +6,15 @@ import EmailIcon from '@mui/icons-material/Email';
 
 export const blogsData = [
   {
+    blogTitle: 'Boosting Performance: Image Optimization in React',
+    blogDescription:
+      'Image Optimization is one of the most crucial parameters for optimizing web performance. In many parts of the world, the internet is still slow and takes a lot of time to load the pages. As frontend developers, we have to think about all the users. Our goal is to make the web apps faster. This blog will help you in your journey to make your web app faster.',
+    blogImage:
+      'https://ik.imagekit.io/debajit13/Image_Optimization_in_React.jpg?updatedAt=1694498688276',
+    blogLink:
+      'https://dev.to/debajit13/boosting-performance-image-optimization-in-react-1f4g',
+  },
+  {
     blogTitle: 'Deep Dive Into the useReducer() hook',
     blogDescription:
       'In React, useReducer() is one of the most important hooks. We use the useState() hook for component-based state management. That is good if your component only has two or three states. But if you have many states in the component, then useReducer() can be a better choice.',
