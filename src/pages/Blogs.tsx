@@ -1,15 +1,50 @@
-import { Typography } from '@mui/material';
+import { Skeleton, Typography } from '@mui/material';
+import { useEffect, useState } from 'react';
+import { get, ref, child } from 'firebase/database';
+import { database } from '../firebase.config';
+import { BlogInterface } from '../interfaces/BlogInterface';
 import BlogCard from '../components/blogs/BlogCard';
-import { blogsData } from '../constants/constant';
 
 const Blogs = () => {
+  const [blogs, setBlogs] = useState<BlogInterface[]>([]);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [isError, setIsError] = useState<boolean>(false);
+
+  useEffect(() => {
+    setIsLoading(true);
+    get(child(ref(database), '/blogs'))
+      .then((snapshot) => {
+        if (snapshot.exists()) {
+          let data: any[] = snapshot.val();
+          setBlogs([...data]);
+          setIsLoading(false);
+        } else {
+          console.log('Data is not available!');
+          setBlogs([]);
+        }
+      })
+      .catch((error) => {
+        setIsError(true);
+        console.error(error);
+      });
+  }, []);
+
   return (
     <div>
       <Typography variant='h3' className='mb-4 mt-3'>
         Blogs
       </Typography>
-      {blogsData.length > 0 &&
-        blogsData.map((blogData) => (
+      {isLoading ? (
+        <>
+          <Skeleton animation='wave' width='100%' height={300} />
+          <Skeleton animation='wave' width='100%' height={300} />
+        </>
+      ) : isError ? (
+        <Typography>Something went wrong! Try again later.</Typography>
+      ) : blogs.length === 0 ? (
+        <Typography>No blogs available!</Typography>
+      ) : (
+        blogs.map((blogData) => (
           <BlogCard
             key={blogData.blogTitle}
             blogTitle={blogData.blogTitle}
@@ -17,7 +52,8 @@ const Blogs = () => {
             blogLink={blogData.blogLink}
             blogImage={blogData.blogImage}
           />
-        ))}
+        ))
+      )}
     </div>
   );
 };
