@@ -21,9 +21,11 @@ const Talks = () => {
         } else {
           console.log('Data is not available!');
           setTalks([]);
+          setIsLoading(false);
         }
       })
       .catch((error) => {
+        setIsLoading(false);
         setIsError(true);
         console.error(error);
       });
@@ -40,7 +42,7 @@ const Talks = () => {
           <Skeleton animation='wave' width='100%' height={300} />
         </>
       ) : isError ? (
-        <Typography>Something went wrong! Try again later.</Typography>
+        <Typography>Something went wrong! Talks data not available.</Typography>
       ) : talks.length === 0 ? (
         <Typography>No talks available!</Typography>
       ) : (
