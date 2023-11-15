@@ -21,9 +21,11 @@ const Projects = () => {
         } else {
           console.log('Data is not available!');
           setProjects([]);
+          setIsLoading(false);
         }
       })
       .catch((error) => {
+        setIsLoading(false);
         setIsError(true);
         console.error(error);
       });
@@ -40,7 +42,9 @@ const Projects = () => {
           <Skeleton animation='wave' width='100%' height={300} />
         </>
       ) : isError ? (
-        <Typography>Something went wrong! Try again later.</Typography>
+        <Typography>
+          Something went wrong! Projects data not available.
+        </Typography>
       ) : projects.length === 0 ? (
         <Typography>No projects available!</Typography>
       ) : (

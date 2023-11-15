@@ -2,7 +2,7 @@ import { Skeleton, Typography } from '@mui/material';
 import { useEffect, useState } from 'react';
 import { get, ref, child } from 'firebase/database';
 import { database } from '../firebase.config';
-import { BlogInterface } from '../interfaces/BlogInterface';
+import { BlogInterface } from '../interfaces/blogInterface';
 import BlogCard from '../components/blogs/BlogCard';
 
 const Blogs = () => {
@@ -20,10 +20,12 @@ const Blogs = () => {
           setIsLoading(false);
         } else {
           console.log('Data is not available!');
+          setIsLoading(false);
           setBlogs([]);
         }
       })
       .catch((error) => {
+        setIsLoading(false);
         setIsError(true);
         console.error(error);
       });
@@ -40,7 +42,7 @@ const Blogs = () => {
           <Skeleton animation='wave' width='100%' height={300} />
         </>
       ) : isError ? (
-        <Typography>Something went wrong! Try again later.</Typography>
+        <Typography>Something went wrong! Blogs data not available.</Typography>
       ) : blogs.length === 0 ? (
         <Typography>No blogs available!</Typography>
       ) : (
