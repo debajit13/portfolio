@@ -1,5 +1,5 @@
 <p align="center">
-  <img style="border-width: 0" width="400" height="400" src="./src/assets/images/logo.png" alt="App logo">
+  <img style="border-width: 0" width="400" height="400" src="https://ik.imagekit.io/debajit13/utilitis/logo.png?updatedAt=1700115191300" alt="App logo">
 </p>
 
 # Portfolio
@@ -14,11 +14,11 @@ A ReactJS and Material UI based portfolio website.
 
 ### Mobile Device:
 
-<img height='500px' src="./src/assets/screenshots/screenshot_mobile.png">
+<img height='500px' src=".https://ik.imagekit.io/debajit13/screenshots/screenshot_mobile.png?updatedAt=1700115350828">
 
 ### Laptop Device:
 
-<img  height='400px' src="./src/assets/screenshots/screenshot_laptop.png">
+<img  height='400px' src="https://ik.imagekit.io/debajit13/screenshots/screenshot_laptop.png?updatedAt=1700115350958">
 
 ## Tech/ Framework Used
 
