@@ -14,7 +14,6 @@ import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import logo from '../assets/images/logo.png';
 
 const drawerWidth = 240;
 const navItems = [
@@ -63,7 +62,7 @@ function AppHeader(props) {
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'left' }}>
       <Link to='/'>
         <img
-          src={logo}
+          src='https://ik.imagekit.io/debajit13/utilitis/logo.png?updatedAt=1700115191300'
           height='45px'
           className='m-2'
           style={{
@@ -114,7 +113,7 @@ function AppHeader(props) {
           >
             <Link to='/'>
               <Image
-                src={logo}
+                src='https://ik.imagekit.io/debajit13/utilitis/logo.png?updatedAt=1700115191300'
                 alt='Debajit Mallick'
                 height='45px'
                 className='d-xs-none'
