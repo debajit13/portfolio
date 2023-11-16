@@ -14,7 +14,7 @@ A ReactJS and Material UI based portfolio website.
 
 ### Mobile Device:
 
-<img height='500px' src=".https://ik.imagekit.io/debajit13/screenshots/screenshot_mobile.png?updatedAt=1700115350828">
+<img height='500px' src="https://ik.imagekit.io/debajit13/screenshots/screenshot_mobile.png?updatedAt=1700115350828">
 
 ### Laptop Device:
 
