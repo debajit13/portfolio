@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { get, ref, child } from 'firebase/database';
 import { database } from '../firebase.config';
 import { ProjectInterface } from '../interfaces/projectInterface';
+import { Helmet } from 'react-helmet';
 
 const Projects = () => {
   const [projects, setProjects] = useState<ProjectInterface[]>([]);
@@ -33,6 +34,9 @@ const Projects = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Projects | Debajit Mallick</title>
+      </Helmet>
       <Typography variant='h3' className='mb-4 mt-3'>
         My Projects
       </Typography>
