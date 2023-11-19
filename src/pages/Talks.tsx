@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { TalkInterface } from '../interfaces/talkInterface';
 import { child, get, ref } from 'firebase/database';
 import { database } from '../firebase.config';
+import { Helmet } from 'react-helmet';
 
 const Talks = () => {
   const [talks, setTalks] = useState<TalkInterface[]>([]);
@@ -33,6 +34,17 @@ const Talks = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Talks | Debajit Mallick</title>
+        <meta
+          name='description'
+          content='20+ talks on several topics from frontend tools like React, Vue to Version Control Systems like Git and GitHub.'
+        />
+        <meta
+          name='keywords'
+          content='Talks, YouTube Videos, Slides URL, Frontend Developer, ReactJS, VueJS, TypeScript, JavaScript, HTML5, CSS3, NuxtJS, NextJS'
+        />
+      </Helmet>
       <Typography variant='h3' className='mb-4 mt-3'>
         Talks
       </Typography>
