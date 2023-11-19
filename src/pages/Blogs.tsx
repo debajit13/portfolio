@@ -4,6 +4,7 @@ import { get, ref, child } from 'firebase/database';
 import { database } from '../firebase.config';
 import { BlogInterface } from '../interfaces/blogInterface';
 import BlogCard from '../components/blogs/BlogCard';
+import { Helmet } from 'react-helmet';
 
 const Blogs = () => {
   const [blogs, setBlogs] = useState<BlogInterface[]>([]);
@@ -33,6 +34,9 @@ const Blogs = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Blogs | Debajit Mallick</title>
+      </Helmet>
       <Typography variant='h3' className='mb-4 mt-3'>
         Blogs
       </Typography>

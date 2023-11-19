@@ -12,6 +12,7 @@ import Skills from '../components/home/Skills';
 import Contact from '../components/home/Contact';
 import Testimonial from '../components/home/Testimonials';
 import Achievements from '../components/home/Achievements';
+import { Helmet } from 'react-helmet';
 
 const initialHomeData = {
   profileImage: '',
@@ -72,6 +73,9 @@ const Home = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Debajit Mallick</title>
+      </Helmet>
       <Grid container>
         <Grid
           item
