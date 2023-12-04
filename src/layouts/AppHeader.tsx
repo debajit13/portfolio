@@ -50,7 +50,7 @@ const Image = styled.img`
   }
 `;
 
-function AppHeader(props) {
+function AppHeader(props: any) {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
