@@ -1,11 +1,11 @@
 import { createBrowserRouter } from 'react-router-dom';
-import Error from '../components/errorElement/Error';
 import Root from '../layouts/Root';
 import Home from '../pages/Home';
 import Blogs from '../pages/Blogs';
 import Experiences from '../pages/Experiences';
 import Projects from '../pages/Projects';
 import Talks from '../pages/Talks';
+import ErrorPage from '../pages/ErrorPage';
 
 const router = createBrowserRouter([
   {
@@ -34,7 +34,7 @@ const router = createBrowserRouter([
         element: <Talks />,
       },
     ],
-    errorElement: <Error />,
+    errorElement: <ErrorPage />,
   },
 ]);
 
